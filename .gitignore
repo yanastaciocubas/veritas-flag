@@ -1,0 +1,30 @@
+# Data files - too large for GitHub, download locally
+data/*.csv
+data/*.zip
+
+# Trained models - regenerate with train.py
+models/*.json
+models/*.pkl
+models/*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
